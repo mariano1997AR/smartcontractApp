@@ -25,13 +25,15 @@ export const FirmaDigital:React.FC<Props> = ({setFirma}) => {
     return (
         <section className='container-firma-digital'>
             <h2 className='text-center text-xl mb-2'>Firma Digital</h2>
-            <SignatureCanvas 
+            <div className='signature-wrapper'>
+                 <SignatureCanvas 
                ref={sigCanvas}
                penColor='black'
-               canvasProps={{width:100, height:150, className:'signature-canvas border'}}
+               canvasProps={{className:'signature-canvas border '}}
             
             
             />
+            </div>
             <section>
                   <button className='btn' onClick={clear}>Limpiar Firma</button>
                   <button className='btn' onClick={save}>Generar documento</button>
