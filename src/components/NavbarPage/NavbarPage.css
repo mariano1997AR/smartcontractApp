@@ -1,0 +1,22 @@
+
+.oscuro-logo1{
+    color: #A27B5C;
+}
+
+/* link del menu */
+
+.logo .a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #222831;
+}
+
+.bordes {
+
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #60B5FF;
+    font-weight: bold;
+}
+
+/* vista en smartphones*/
