@@ -17,7 +17,9 @@ const router = createBrowserRouter([
         {path:"agendar",element:<Agendar />}
      ]
   }
-]);
+],{
+   basename:'/smartcontractApp/'
+});
 
 createRoot(document.getElementById('root')!).render(
    <HeadProvider>
